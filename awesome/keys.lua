@@ -84,8 +84,8 @@ keys.globalkeys = gears.table.join( keys.globalkeys,
     awful.key({ alt }, "grave", function () awful.spawn("st -c fst") end,
               { description = "open a floating terminal", group = "awesome"}),
 
-    -- superkey + 'grave' to start a terminal
-    awful.key({ superkey }, "grave", function () awful.spawn(terminal) end,
+    -- superkey + 'space' to start a terminal
+    awful.key({ superkey }, "space", function () awful.spawn(terminal) end,
               { description = "open a terminal", group = "awesome"}),
 
 
